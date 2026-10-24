@@ -12,7 +12,7 @@ class Scoreboard(Turtle):
         super().__init__(shape, undobuffersize, visible)
         self.level = 1  # Starting level
         self.penup()
-        self.goto(-200, 260)  # Position of the level display
+        self.goto(-180, 260)  # Position of the level display
         self.write(f"L E V E L:{self.level}", align="center", font=FONT)
         
     def increase_score(self):

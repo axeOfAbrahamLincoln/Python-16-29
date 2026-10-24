@@ -6,7 +6,8 @@ from scoreboard import Scoreboard
 
 # Create the game screen
 screen = Screen()
-screen.setup(width=600, height=600)
+screen.setup(width=620, height=620)
+screen.screensize(canvwidth=600, canvheight=600)
 screen.tracer(0)  # Turn off automatic animation
 
 # Create game objects
