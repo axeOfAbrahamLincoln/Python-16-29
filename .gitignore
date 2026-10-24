@@ -1,39 +1,48 @@
-Python cache files
 
-pycache/ *.py[cod] *$py.class
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
 
-Virtual environments
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
 
-venv/ .venv/ env/ ENV/
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
 
-Environment variables and secrets
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
 
-.env .env.* !.env.example
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
 
-Python packaging
+# Type checking and linting
+.mypy_cache/
+.pyright/
+.ruff_cache/
 
-build/ dist/ *.egg-info/ .eggs/
-
-Testing and coverage
-
-.pytest_cache/ .coverage htmlcov/ .tox/ .nox/
-
-Type checking and linting
-
-.mypy_cache/ .pyright/ .ruff_cache/
-
-Jupyter Notebook
-
+# Jupyter Notebook
 .ipynb_checkpoints/
 
-IDE and editor settings
+# IDE and editor settings
+.vscode/
+.idea/
 
-.vscode/ .idea/
+# Operating system files
+.DS_Store
+Thumbs.db
 
-Operating system files
-
-.DS_Store Thumbs.db
-
-Logs
-
+# Logs
 *.log
