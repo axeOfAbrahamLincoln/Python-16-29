@@ -1,9 +1,9 @@
-from turtle import Screen
 import time
-from snake import Snake
+from turtle import Screen
+
 from food import Food
 from scoreboard import Scoreboard
-
+from snake import Snake
 
 # ---------------------- SCREEN SETUP ----------------------
 # Configure the game window and disable automatic screen updates.
