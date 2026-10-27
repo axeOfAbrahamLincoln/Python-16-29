@@ -9,7 +9,8 @@ from snake import Snake
 # Configure the game window and disable automatic screen updates.
 
 screen = Screen()
-screen.setup(width=600, height=600)  # Set window size
+screen.setup(width=610, height=610)  # Set window size
+screen.screensize(canvwidth=600, canvheight=600)
 screen.bgcolor("black")              # Set background color
 screen.title("Snake Game")           # Window title
 screen.tracer(0)                     # Disable automatic animation updates
