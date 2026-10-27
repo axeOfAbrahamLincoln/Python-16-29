@@ -31,7 +31,4 @@ class Player(Turtle):
 
     def is_at_finishline(self):
         """Check if the player has reached the finish line."""
-        if self.ycor() > FINISH_LINE_Y:
-            return True
-        else:
-            return False
+        return self.ycor() > FINISH_LINE_Y
