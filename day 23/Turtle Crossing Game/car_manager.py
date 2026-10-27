@@ -1,5 +1,5 @@
-from turtle import Turtle
 import random
+from turtle import Turtle
 
 # Possible colors for the cars
 COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
@@ -11,7 +11,7 @@ STARTING_MOVE_DISTANCE = 5
 MOVE_INCREMENT = 5
 
 
-class CarManager():
+class CarManager:
     """Manages creation, storage, and movement of cars in the game."""
 
     def __init__(self):
