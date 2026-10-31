@@ -8,9 +8,9 @@ GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
 TITLE = "T i m e r"
-WORK_MIN = 1
-SHORT_BREAK_MIN = 1
-LONG_BREAK_MIN = 1
+WORK_MIN = 30
+SHORT_BREAK_MIN = 5
+LONG_BREAK_MIN = 15
 timer = None
 rep = 0
 
@@ -117,7 +117,7 @@ timer_text = canvas.create_text(
 canvas.grid(row=1, column=1, pady=20)
 
 # LABELS - Display title and checkmarks
-label_title = Label(text=TITLE, font=(FONT_NAME, 32, "bold"), bg=YELLOW, fg=GREEN)
+label_title = Label(text=TITLE, font=(FONT_NAME, 32, "bold"), bg=YELLOW, fg=GREEN, width=10)
 label_title.grid(row=0, column=1)
 
 label_checkmark = Label(bg=YELLOW, fg=GREEN)
